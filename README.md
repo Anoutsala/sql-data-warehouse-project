@@ -25,7 +25,7 @@ The data warehouse integrates data from CRM and ERP systems, transforms raw data
 The project follows the **Medallion Architecture** approach:
 
 <p align="center">
-  <img src="docs/data_architecture_sqql_warehouse_project_drawio.png" width="700"/>
+  <img src="docs/data_architecture_sql_warehouse_project_drawio.png" width="700"/>
 </p>
 
 ### 🥉 Bronze Layer (Raw)
