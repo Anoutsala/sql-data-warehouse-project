@@ -1,4 +1,4 @@
-# 🏗️ Data Warehouse and Analytics Project (SQL Server + Docker)
+# 🏗️ Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** as part of the SQL Full Course from ***Data with Baara***
 
@@ -27,7 +27,6 @@ The project follows the **Medallion Architecture** approach:
 ### 🥉 Bronze Layer (Raw)
 
 * Stores raw data ingested directly from source systems (CSV files)
-* Maintains original structure with minimal transformation
 
 ### 🥈 Silver Layer (Cleaned)
 
@@ -114,27 +113,6 @@ These insights support business decision-making and performance tracking.
 ├── docs/                # Data model documentation
 └── README.md
 ```
-
----
-
-## 🚀 How to Run the Project
-
-1. Start SQL Server using Docker
-2. Connect to the database using Azure Data Studio
-3. Execute SQL scripts in the following order:
-
-   * Bronze layer (data ingestion)
-   * Silver layer (data transformation)
-   * Gold layer (data modeling)
-
----
-
-## 📚 Documentation
-
-The project includes documentation of the data model to support:
-
-* Business stakeholders
-* Analytics teams
 
 ---
 
